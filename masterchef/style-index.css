@@ -1,0 +1,375 @@
+
+.cek :hover{
+    opacity: 0.5;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #f0f0f0;
+}
+.bg-top{
+    position: absolute;
+    width: 100%;
+}
+.logo-sosmed{
+    position: absolute;
+    transform: perspective(-50%,-50%);
+    right: 30px;
+    margin-top: 20px;
+}
+.fb{
+    max-height: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.ig{
+    max-height: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.tw{
+    max-height: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.yt{
+    max-height: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.logo-sosmed :hover{
+    max-height: 20px;
+}
+.logo-top{
+    position: absolute;
+    transform: perspective(-50%,-50%);
+    left: 47%;
+    margin-top: 40px;
+}
+.home{
+    font-size: 15px;
+    position: absolute;
+    left: 30%;
+    color: white;
+    margin-top: 70px;
+}
+.apply{
+    font-size: 15px;
+    position: absolute;
+    left: 35%;
+    color: white;
+    margin-top: 70px;
+}
+.judges{
+    font-size: 15px;
+    position: absolute;
+    left: 40%;
+    color: white;
+    margin-top: 70px;
+}
+.about{
+    font-size: 15px;
+    position: absolute;
+    left: 55%;
+    color: white;
+    margin-top: 70px;
+}
+.store{
+    font-size: 15px;
+    position: absolute;
+    left: 60%;
+    color: white;
+    margin-top: 70px;
+}
+.menu-top :hover{
+    opacity: 0.8;
+}
+.welcome{
+    position: absolute;
+    width: 100%;
+    top: 758px;
+}
+.text1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    color: #ad2300;
+    width: 100%;
+    top: 1090px;
+}
+.text2{
+    font: 'sans-serif';
+    font-size: 22px;
+    position: absolute;
+    text-align: center;
+    color: #6d6d6d;
+    width: 100%;
+    top: 1150px;
+}
+.text3{
+    font: 'sans-serif';
+    font-size: 22px;
+    position: absolute;
+    text-align: center;
+    color: #6d6d6d;
+    width: 100%;
+    top: 1180px;
+}
+.text4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    text-align: left;
+    color: #ad2300;
+    width: 40%;
+    top: 1250px;
+    left: 7%;
+}
+.text5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    text-align: left;
+    color: #ad2300;
+    width: 40%;
+    top: 1250px;
+    left: 53%;
+}
+.text-link :hover{
+    color: cadetblue;
+}
+.kiri{
+    position: absolute;
+    max-width: 40%;
+    top: 1500px;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+.kanan{
+    position: absolute;
+    max-width: 40%;
+    top: 1500px;
+    left: 73%;
+    transform: translate(-50%, -50%);
+}
+.gambar :hover{
+    max-width: 42%;
+}
+.facebook{
+    position: absolute;
+    width: 50%;
+    top: 1740px;
+    left: 0%;
+    height: 500px;
+    background-color: #4545db;
+}
+.icon-fb{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    widows: 30%;
+    border-radius: 100px;
+    transform: translate(-50%, -50%);
+}
+.text-fb{
+    position: absolute;
+    font-family: "Crete Round";
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-fb2{
+    position: absolute;
+    font-family: "Crete Round";
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-fb{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 10%;
+    left: 50%;
+    width: 20%;
+    height: 10%;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    color: #4545db;
+}
+.btn-fb:hover{
+    color: white;
+    background-color: #4545db;
+}
+.catchup{
+    position: absolute;
+    width: 50%;
+    top: 1740px;
+    left: 50%;
+    height: 500px;
+    background-color: #000000;
+}
+.icon-cu{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    widows: 30%;
+    transform: translate(-50%, -50%);
+}
+.text-cu{
+    position: absolute;
+    font-family: "Crete Round";
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-cu2{
+    position: absolute;
+    font-family: "Crete Round";
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-cu{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 10%;
+    left: 50%;
+    width: 20%;
+    height: 10%;
+    border-radius: 50px;
+    background-color: #FFC400;
+    border: 2px solid #FFC400;
+    font-size: 20px;
+    color: black;
+}
+.btn-cu:hover{
+    color: #FFC400;
+    background-color: #000000;
+}
+.instagram{
+    position: absolute;
+    top: 2240px;
+    background-color: #303030;
+    height: 100px;
+    width: 100%;
+
+}
+.text-ig{
+    position: absolute;
+    font-family: "Crete Round";
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFC400;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.blank{
+    position: absolute;
+    background-color: #212121;
+    width: 100%;
+    height: 600px;
+    top: 2340px;
+}
+.footer{
+    position: absolute;
+    background-color: #303030;
+    color: #ffc00f;
+    width: 100%;
+    height: 280px;
+    top: 2940px;
+}
+.footer-sosmed{
+    position: absolute;
+    transform: perspective(-50%,-50%);
+    right: 45%;
+    bottom: 22%;
+}
+.footer-sosmed :hover{
+    max-height: 20px;
+}
+.text-ftr{
+    font: "Open Sans";
+    font-size: 14px;
+}
+.text-ftr :hover{
+    color: #ff5b0f;
+}
+.ftr1{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.ftr2{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.ftr3{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+.ftr4{
+    position: absolute;
+    top: 40%;
+    left: 41%;
+}
+.ftr5{
+    position: absolute;
+    top: 55%;
+    left: 46%;
+}
+.footer-logo1{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+.footer-logo2{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    max-width: 13%;
+}
+
+
+
+.copyright{
+    background-color: #222222;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 3220px;
+}
+.copy-text{
+    font:"Open Sans";
+    color: #efefef;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}
